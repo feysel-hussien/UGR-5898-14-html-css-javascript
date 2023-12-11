@@ -2,31 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myhobbies</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
+   
 </head>
-<header>
-    <h1 style="text-align:center"> MY HOBBIES </h1>
-    <hr>
+<header class="header">
+    <h1 class="header__title">MY HOBBIES</h1>
+    <hr class="header__separator">
 </header>
 <body>
-<img style="text-align:center" src="images/football.jpg" width="700" height="400">
-<h4>For me, it's not just a hobby, its far more than that.Football, the beautiful game captivated my passion since I was a young boy. As I grew older, my love for football only deepened.Football is a sport that can be enjoyed by people of all ages and abilities. It is a great way to stay active and healthy, and it is a great way to make new friends and have fun. If you're looking for a hobby that will challenge you, teach you new things, and bring you joy, I highly recommend football.
-    <h3 style="text-align:center">Here's a video of me playing football with my friends.</h3>
-<video controls muted loop src="images/footballvid.mp4" width="400" height="300"  type="video/mp4">>
-    </video>
- </h4>
-<h2 style="text-align:center">FOOD
-</h2>
-<img  src="images/food.jpg" width="300" height="400">
-<h4>Another hobby of me. Food is a source of nourishment, joy, and cultural exploration, and it's no wonder that many people find themselves drawn to the culinary world. My friends and I really enjoy food. It's a means of entertainment for us. </h4>
-<img src="images/yo.jpg" width="200" height="400">
-<img src="images/ole.jpg" width="200" height="400">
-<h3 style="text-align:center"> My friends love food!</h3>
+    <div class="comp">
+        <div class="comp__block">
+            <h2>FOOTBALL</h2>
+            <img src="football.jpg">
+            <h4>For me, it's not just a hobby, its far more than that.Football, the beautiful game captivated my passion since I was a young boy. As I grew older, my love for football only deepened.Football is a sport that can be enjoyed by people of all ages and abilities. It is a great way to stay active and healthy, and it is a great way to make new friends and have fun. If you're looking for a hobby that will challenge you, teach you new things, and bring you joy, I highly recommend football.</h4>
+            <h3>Here's a video of me playing football with my friends.</h3>
+            <video controls muted loop src="footballvid.mp4" type="video/mp4">>
+            </video>
+        </div>
+    
+        <div class="comp__blocks"><h2>FOOD
+            </h2>
+            <img class="block__image__bur" src="food.jpg">
+            <h4>Another hobby of me. Food is a source of nourishment, joy, and cultural exploration, and it's no wonder that many people find themselves drawn to the culinary world. My friends and I really enjoy food. It's a means of entertainment for us. </h4>
+            <img class="block__image__yo" src="yo.jpg">
+            <img class="block__image__ole" src="ole.jpg">
+            
+            <h3> My friends love food!</h3>
+        </div>
+    </div>
 </body>
 <footer>
     <hr>
-    <div style="text-align:center" class="navbar">
+    <div class="navbar">
 
         <a href="personal%20website.html" >Home Page</a>
         <a href="hobbies.html" class="active" >Hobbies</a>
